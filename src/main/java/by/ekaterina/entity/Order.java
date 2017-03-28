@@ -3,10 +3,8 @@ package by.ekaterina.entity;
 import java.sql.Date;
 import java.sql.SQLData;
 
-/**
- * Created by CHUKIN on 28.03.2017.
- */
-public class Order {
+
+public class Order implements Entity{
     int id;
     String from;
     String to;

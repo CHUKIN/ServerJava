@@ -1,9 +1,7 @@
 package by.ekaterina.entity;
 
-/**
- * Created by CHUKIN on 28.03.2017.
- */
-public class Role {
+
+public class Role implements Entity{
     int id;
     String name;
 

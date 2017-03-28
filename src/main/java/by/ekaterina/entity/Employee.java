@@ -1,6 +1,6 @@
 package by.ekaterina.entity;
 
-public class Employee {
+public class Employee implements Entity {
     int id;
     String surname;
     String name;
