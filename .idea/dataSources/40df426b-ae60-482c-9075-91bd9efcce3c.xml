@@ -38,7 +38,7 @@
     </column>
     <column id="19" parent="9" name="age">
       <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>int(11)|0</DataType>
     </column>
     <column id="20" parent="9" name="login">
       <Position>6</Position>
@@ -87,7 +87,7 @@
     </column>
     <column id="30" parent="10" name="count">
       <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>int(11)|0</DataType>
     </column>
     <index id="31" parent="10" name="id_UNIQUE">
       <ColNames>id</ColNames>
@@ -113,7 +113,7 @@
     </column>
     <column id="36" parent="11" name="count">
       <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>int(11)|0</DataType>
     </column>
     <column id="37" parent="11" name="idorder">
       <Position>4</Position>

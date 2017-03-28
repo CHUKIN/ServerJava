@@ -5,12 +5,12 @@ public class Employee {
     String surname;
     String name;
     String patronymic;
-    String age;
+    int age;
     String login;
     String password;
     int idRole;
 
-    public Employee(int id, String surname, String name, String patronymic, String age, String login, String password, int idRole) {
+    public Employee(int id, String surname, String name, String patronymic, int age, String login, String password, int idRole) {
         this.id = id;
         this.surname = surname;
         this.name = name;
@@ -53,11 +53,11 @@ public class Employee {
         this.patronymic = patronymic;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
