@@ -5,7 +5,7 @@ import by.ekaterina.entity.Entity;
 import java.util.ArrayList;
 
 
-public class ProductItemTransation implements Product {
+public class ProductItemTransaction implements Product {
     public ArrayList<Entity> getData() {
         return null;
     }

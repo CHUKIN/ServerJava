@@ -14,7 +14,7 @@
     <schema id="8" parent="1" name="test"/>
     <table id="9" parent="2" name="employee"/>
     <table id="10" parent="2" name="item"/>
-    <table id="11" parent="2" name="itemtransition"/>
+    <table id="11" parent="2" name="itemtransaction"/>
     <table id="12" parent="2" name="order"/>
     <table id="13" parent="2" name="role"/>
     <table id="14" parent="2" name="status"/>

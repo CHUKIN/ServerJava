@@ -1,13 +1,13 @@
 package by.ekaterina.entity;
 
 
-public class ItemTransation implements Entity{
+public class ItemTransaction implements Entity{
     int id;
     String name;
     int count;
     int idOrder;
 
-    public ItemTransation(int id, String name, int count, int idOrder) {
+    public ItemTransaction(int id, String name, int count, int idOrder) {
         this.id = id;
         this.name = name;
         this.count = count;
